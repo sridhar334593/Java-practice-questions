@@ -10,6 +10,19 @@ public class Main {
     solveVariablesQ8();
     solveVariablesQ9();
     solveVariablesQ10();
+    solveVariablesQ11();
+    solveVariablesQ12();
+    solveVariablesQ13();
+    solveVariablesQ14();
+    solveVariablesQ15();
+    solveVariablesQ16();
+    solveVariablesQ17();
+    solveVariablesQ18();
+    solveVariablesQ19();
+    solveVariablesQ20();
+    solveVariablesQ21();
+    solveVariablesQ22();
+    solveVariablesQ23();
   }
 
  
@@ -84,6 +97,114 @@ public class Main {
     System.out.println(d);
     System.out.println(e);
   }
-}
+
+  public static void solveVariablesQ11() {
+   String firstName = "sridhar";
+   String lastName = "s";
+   System.out.println("Full name: " + firstName + " " + lastName);
+
+  }
+
+  public static void solveVariablesQ12() {
+    int a = 10;
+    int b = 20;
+    int c = 30;
+    int avg = (a + b + c)/3;
+    System.out.println("Average: " + avg);
+  }
+
+  public static void solveVariablesQ13() {
+    int radius = 7;
+    double area  = 3.14 * radius * radius;
+    System.out.println("Area of circle: " + area);
+  }
+
+  public static void solveVariablesQ14() {
+    int length = 5;
+    int breadth = 10;
+    int area = length * breadth;
+    int perimeter = 2 * (length + breadth);
+    System.out.println("Area of rectangle: " + area);
+    System.out.println("Perimeter of rectangle: " + perimeter); 
+  }
+
+  public static void solveVariablesQ15() {
+   int tamil = 99;
+   int english = 87;
+   int maths = 99;
+   int science = 99;
+    int social = 99;
+   int total = tamil + english + maths + science + social;
+    System.out.println("Total marks: " + total);
+  }
+
+  public static void solveVariablesQ16() {
+    int totalMarks = 500;
+    int obtainedMarks = 450;
+    double percentage = (obtainedMarks * 100.0) / totalMarks;
+    System.out.println("Percentage: " + percentage + "%");
+  }
+
+  public static void solveVariablesQ17() {
+    int a = 10;
+    int b = 20;
+
+    a = a + b;
+    b = a - b;
+    a = a - b;
+    System.out.println(a);
+    System.out.println(b);
+   }
+
+  public static void solveVariablesQ18() {
+     int a = 10;
+     int b = 20;
+     int temp;
+
+     temp = a; // temp = 10
+     a = b;    // a = 20
+     b = temp; // b = 10
+     System.out.println("a = " + a + " " + "b = " + b);
+   }
+
+  public static void solveVariablesQ19() {
+     int principal = 100;
+     int rate = 25;
+     int time = 12;
+     double simpleinterest = principal * rate * time;
+     System.out.println(simpleinterest);
+   }
+
+   public static void solveVariablesQ20() {
+    float celsius = 32.5f;
+    float fahrenheit = (celsius * 9/5) + 32;
+    System.out.println(fahrenheit);
+   }
+
+   public static void solveVariablesQ21() {
+    int km = 1000;
+    int m = km * 1000;
+    int cm = m * 100;
+    System.out.println("kilometer = " + km);
+    System.out.println("meter = " + m);
+    System.out.println("centimeter = " + cm);
+   }
+
+   public static void solveVariablesQ22() {
+    double hours = 10;
+    double minutes = 60 * hours;
+    long seconds = (long) (60 * 60 * hours);  // (NOTE) if value is given long = 132443L; 
+    System.out.println("hours= " + hours);
+    System.out.println("minutes= " + minutes);
+    System.out.println( "seconds= " + seconds);
+   }
+
+   public static void solveVariablesQ23() {
+    int annualsalary = 500000;
+    float monthlysalary = (float) (annualsalary / 12 );
+    System.out.println("monthlysalary is = " + monthlysalary); 
+   }
+
+  }
 
 
